@@ -2,9 +2,9 @@ using System;
 					
 public class Program
 {
-	public Operations myOperator;
+	public Operations MyOperator;
 	
-	public void Main()
+	public static void Main()
 	{
 		myOperator = new Operations();
 		
