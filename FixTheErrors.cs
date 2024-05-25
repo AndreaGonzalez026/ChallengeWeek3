@@ -2,7 +2,7 @@ using System;
 					
 public class Program
 {
-	public void Main()
+	public static void Main()
 	{
 		Console.WriteLine("Welcome");
 		DoMath(10, 4);
@@ -10,7 +10,7 @@ public class Program
 		DoMath(30, 15);
 	}
 	
-	public void DoMath (int value, int value2) 
+	public static void DoMath (int value, int value2) 
     {
 		var number = value + value2;
 		Console.WriteLine(number);
